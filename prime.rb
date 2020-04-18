@@ -1,5 +1,7 @@
 # Add  code here!
 
 def prime?(i)
-  (2..i-1).none?{|num| i % num == 0 }
+  return false 
+    if i <= 1
+  (2..i-1).none?{|num| i % num == 0 include?{} }
 end
